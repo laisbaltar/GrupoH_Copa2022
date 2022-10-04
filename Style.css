@@ -85,14 +85,10 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 8%;
-    position: fixed;
-    background-color: rgba(85, 84, 84, 0.459);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-
+    position: absolute;
+    width: 650px;
+    padding-left: 2%;
+    padding-top: 45%;
 }
 h1 {
     color: #fff;
@@ -110,6 +106,9 @@ h3 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
 }
 
 /*sobre os times*/
