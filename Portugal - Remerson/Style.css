@@ -95,7 +95,7 @@ span {
     position: absolute;
     top: 50%;
     left: 8%;
-    transform: translateY(-50%);
+    transform: translateY(-50%);  
 }
 
 .Main span{
@@ -105,7 +105,10 @@ span {
 h1{
     color: rgb(252, 8, 77);
     margin: 20px 0px 20px;
-    font-size: 360px;
+    font-size: 180px;
+    padding: 40px;
+    background-color:rgba(16, 16, 16, 0.452);
+    border-radius: 32px;
 }
 h4{
     color: rgb(249, 245, 245);
@@ -116,23 +119,25 @@ h4{
 h3{
     color: rgb(228, 222, 136);
     font-size: 25px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .background-color-Sobre{
     background-color: #191919;
     width: 100%;
     padding: 100px 0px;
+    height: auto;
+    display:flex;
     
 }
 
 .background-color-Sobre img{
-    width: 430px;
-    height: auto;
+    width: 45%;
+    height: 45%;    
 }
 
 .Text-sobre{
-    width: 550px;
+    width: 600px;
   }
 .main-sobre{
    display: flex;
@@ -140,6 +145,8 @@ h3{
    justify-content: space-around;
    width: 1130px;
    margin: 0 auto;
+
+   
 }
 .imagem{
     display: table-cell;
@@ -173,11 +180,11 @@ h3{
 }
 
 .Text-sobre p{
-    color: rgb(249, 247, 249);
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     line-height: 28px;
-    float: center;
-    margin-bottom: 48px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 
 .Container-serviços{
