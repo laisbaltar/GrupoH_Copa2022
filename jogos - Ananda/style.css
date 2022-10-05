@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.background {
+    background-image: url(https://images2.imgbox.com/1d/6a/BhURrZ7y_o.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-paises {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+.nav-paises img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.nav-paises a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav-paises a:hover {
+    color: #f9004d;
+    transform: .4s;
+}
+
+.logo {
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    background-color: rgba(85, 84, 84, 0.459);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+span {
+    color: #f9004d;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 35px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.apresentacao {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.apresentacao span {
+    color: rgb(255, 0, 85);
+    font-size: 150px;
+}
+
+.background-color-Sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+    height: auto;
+}
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+
+h4{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+
+.background-cor {
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    padding: 0px;
+
+}
+
+.background-cor .img{
+    
+}
+
+
+
+.texto-sobre {
+    width: 600px;
+}
+
+.apresentacao-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.texto-sobre h2 {
+    color: rgb(216, 106, 152);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.texto-sobre h5 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.texto-sobre p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.estadios {
+    background-color: rgb(22, 19, 21);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titulo h2 {
+    color: #fff;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Cartao {
+    background: rgb(31, 31, 31);
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: static;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.Cartao img{
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.paragrafo {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.paragrafo img {
+    height: 100px;
+    width: 100px;
+}
+
+.calendario {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario h2{
+    color: rgb(230, 0, 57);
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.calendario p {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.calendario tbody{
+    background-color: rgb(0, 0, 0);
+}
+
+.calendario .legenda{
+    background-color: #f9004d;
+}
+
+.calendario table p{
+    color: #fff;
+    font-size: 20px;
+}
+
+/*footer*/
+
+.nomes{
+    display: flex;
+}
+.nomes h6{
+    margin: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+.nomes h6:hover{
+    color: #f9004d;
+    transform: scale(1.2);
+    transition: .3s;
+}
+footer {
+    position: relative;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais {
+    display: flex;
+}
+
+.Redes-sociais a {
+    background-color: #f9004d;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Redes-sociais a:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
