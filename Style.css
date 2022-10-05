@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 /*barra de navegação*/
+a{
+    text-decoration: none;
+}
 .background {
     background-image: url(img/background.png);
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 100vh;
     width: 100%;
 }
